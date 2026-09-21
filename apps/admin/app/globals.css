@@ -1,0 +1,247 @@
+@import "tailwindcss";
+
+:root {
+  --admin-background: #f5efe7;
+  --admin-foreground: #07162f;
+  --admin-surface: #f5efe7;
+  --admin-surface-muted: #efe8dd;
+  --admin-border: #d8e2f2;
+  --admin-primary: #15397f;
+  --admin-primary-dark: #07162f;
+  --admin-primary-soft: #d7e4ff;
+  --admin-accent: #d9a441;
+  --admin-accent-cool: #67d5ff;
+  --admin-warning: #b45309;
+  --admin-danger: #dc2626;
+  --admin-success: #15803d;
+  --admin-sidebar: #07162f;
+  --admin-sidebar-muted: #bfccdc;
+  --admin-radius: 14px;
+  --soft-surface: #f5efe7;
+  --soft-dark: #d0cbc4;
+  --soft-light: #ffffff;
+  --soft-distance: 9px;
+  --soft-blur: 24px;
+  --soft-card-radius: 18px;
+  --soft-control-radius: 14px;
+  --font-admin-sans: "Inter", "Segoe UI", Arial, Helvetica, sans-serif;
+}
+
+@theme inline {
+  --color-background: var(--admin-background);
+  --color-foreground: var(--admin-foreground);
+  --color-surface: var(--admin-surface);
+  --color-surface-muted: var(--admin-surface-muted);
+  --color-border: var(--admin-border);
+  --color-primary: var(--admin-primary);
+  --color-primary-dark: var(--admin-primary-dark);
+  --color-primary-soft: var(--admin-primary-soft);
+  --color-brand-accent: var(--admin-accent);
+  --font-sans: var(--font-admin-sans);
+}
+
+* {
+  box-sizing: border-box;
+}
+
+html {
+  min-height: 100%;
+}
+
+body {
+  min-height: 100%;
+  background: var(--admin-background);
+  color: var(--admin-foreground);
+  font-family: var(--font-admin-sans);
+}
+
+a {
+  color: inherit;
+  text-decoration: none;
+}
+
+button,
+input,
+select,
+textarea {
+  font: inherit;
+}
+
+:focus-visible {
+  outline: 3px solid color-mix(in srgb, var(--admin-primary) 45%, white);
+  outline-offset: 2px;
+}
+
+.siu-button-primary,
+.siu-button-primary:hover,
+.siu-button-primary:active,
+.siu-button-primary:visited {
+  color: #ffffff !important;
+}
+
+.siu-button-primary * {
+  color: inherit;
+}
+
+.siu-soft-card {
+  background: var(--soft-surface);
+  border: 0;
+  border-radius: var(--soft-card-radius);
+  box-shadow:
+    var(--soft-distance) var(--soft-distance) var(--soft-blur) var(--soft-dark),
+    calc(var(--soft-distance) * -1) calc(var(--soft-distance) * -1) var(--soft-blur) var(--soft-light);
+}
+
+.siu-soft-card:focus-within {
+  outline: 2px solid color-mix(in srgb, var(--admin-primary) 65%, white);
+  outline-offset: 3px;
+}
+
+.siu-soft-card-dark {
+  --soft-surface: #07162f;
+  --soft-dark: #061328;
+  --soft-light: #10284a;
+  background: var(--soft-surface);
+  border: 0;
+  border-radius: var(--soft-card-radius);
+  box-shadow:
+    var(--soft-distance) var(--soft-distance) var(--soft-blur) var(--soft-dark),
+    calc(var(--soft-distance) * -1) calc(var(--soft-distance) * -1) var(--soft-blur) var(--soft-light);
+}
+
+.siu-soft-button {
+  border: 0;
+  border-radius: var(--soft-control-radius);
+  box-shadow:
+    6px 6px 14px var(--soft-button-dark, var(--soft-dark)),
+    -6px -6px 14px var(--soft-button-light, var(--soft-light));
+  transition:
+    box-shadow 120ms ease,
+    transform 120ms ease;
+}
+
+.siu-soft-button:hover {
+  box-shadow:
+    6px 6px 14px var(--soft-button-dark, var(--soft-dark)),
+    -6px -6px 14px var(--soft-button-light, var(--soft-light));
+}
+
+.siu-soft-button:active {
+  transform: translateY(1px);
+  box-shadow:
+    inset 4px 4px 10px var(--soft-button-dark, var(--soft-dark)),
+    inset -4px -4px 10px var(--soft-button-light, var(--soft-light));
+}
+
+.siu-soft-button-primary {
+  --soft-button-dark: rgba(7, 22, 47, 0.3);
+  --soft-button-light: rgba(255, 255, 255, 0.72);
+}
+
+.siu-soft-button-secondary {
+  --soft-button-dark: rgba(104, 75, 22, 0.28);
+  --soft-button-light: rgba(255, 255, 255, 0.72);
+}
+
+.siu-soft-button-dark {
+  --soft-button-dark: #061328;
+  --soft-button-light: #10284a;
+}
+
+.siu-soft-button-light {
+  --soft-button-dark: #d0cbc4;
+  --soft-button-light: #ffffff;
+}
+
+.siu-soft-inset {
+  background: var(--soft-surface);
+  border-color: transparent;
+  border-radius: var(--soft-control-radius);
+  box-shadow:
+    inset 6px 6px 14px var(--soft-dark),
+    inset -6px -6px 14px var(--soft-light);
+}
+
+.siu-soft-inset:focus {
+  border-color: color-mix(in srgb, var(--admin-primary) 68%, white);
+  box-shadow:
+    inset 5px 5px 12px var(--soft-dark),
+    inset -5px -5px 12px var(--soft-light),
+    0 0 0 3px color-mix(in srgb, var(--admin-primary-soft) 72%, transparent);
+}
+
+.siu-soft-table {
+  border-radius: var(--admin-radius);
+}
+
+.siu-soft-table thead th:first-child {
+  border-top-left-radius: var(--admin-radius);
+}
+
+.siu-soft-table thead th:last-child {
+  border-top-right-radius: var(--admin-radius);
+}
+
+.siu-soft-table-body tr > td {
+  background: var(--soft-surface);
+  transition:
+    box-shadow 140ms ease,
+    color 140ms ease;
+}
+
+.siu-soft-table-body tr:nth-child(odd) > td {
+  box-shadow:
+    0 10px 18px -10px color-mix(in srgb, var(--soft-dark) 92%, #6f675d),
+    0 -10px 18px -10px var(--soft-light);
+}
+
+.siu-soft-table-body tr:nth-child(odd) > td:first-child {
+  box-shadow:
+    10px 10px 20px -7px color-mix(in srgb, var(--soft-dark) 92%, #6f675d),
+    -10px -10px 20px -7px var(--soft-light);
+}
+
+.siu-soft-table-body tr:nth-child(odd) > td:last-child {
+  box-shadow:
+    10px 10px 20px -7px color-mix(in srgb, var(--soft-dark) 92%, #6f675d),
+    -10px -10px 20px -7px var(--soft-light);
+}
+
+.siu-soft-table-body tr:nth-child(even) > td {
+  box-shadow:
+    inset 0 10px 18px -9px color-mix(in srgb, var(--soft-dark) 92%, #6f675d),
+    inset 0 -10px 18px -9px var(--soft-light);
+}
+
+.siu-soft-table-body tr:nth-child(even) > td:first-child {
+  box-shadow:
+    inset 10px 10px 20px -6px color-mix(in srgb, var(--soft-dark) 92%, #6f675d),
+    inset 0 -10px 18px -9px var(--soft-light);
+}
+
+.siu-soft-table-body tr:nth-child(even) > td:last-child {
+  box-shadow:
+    inset 0 10px 18px -9px color-mix(in srgb, var(--soft-dark) 92%, #6f675d),
+    inset -10px -10px 20px -6px var(--soft-light);
+}
+
+.siu-soft-table-body tr:hover > td {
+  color: var(--admin-primary);
+}
+
+.siu-soft-table-body tr:last-child > td:first-child {
+  border-bottom-left-radius: var(--admin-radius);
+}
+
+.siu-soft-table-body tr:last-child > td:last-child {
+  border-bottom-right-radius: var(--admin-radius);
+}
+
+@media (max-width: 640px) {
+  :root {
+    --soft-distance: 8px;
+    --soft-blur: 22px;
+    --soft-card-radius: 16px;
+    --soft-control-radius: 12px;
+  }
+}
