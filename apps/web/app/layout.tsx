@@ -5,14 +5,15 @@ import "@/styles/antd.css";
 import "./globals.css";
 
 export const metadata: Metadata = {
-  title: "XSy Barber",
-  description: "Haircut booking website for XSy Barber",
+  title: "SiuBarber",
+  description:
+    "Đặt lịch cắt tóc và chăm sóc tóc hiện đại tại SiuBarber",
 };
 
 export default function RootLayout({ children }: LayoutProps<"/">) {
   return (
-    <html lang="vi" className="h-full antialiased">
-      <body className="min-h-full flex flex-col">
+    <html className="h-full antialiased" lang="vi">
+      <body className="flex min-h-full flex-col">
         <AntdRegistry>
           <Providers>{children}</Providers>
         </AntdRegistry>

@@ -6,7 +6,7 @@ type ServiceCardProps = {
 
 export function ServiceCard({ service }: ServiceCardProps) {
   return (
-    <article className="rounded-md border border-stone-200 bg-white p-4 shadow-sm">
+    <article className="siu-soft-card rounded-lg p-4">
       <h3 className="text-lg font-semibold text-stone-950">{service.name}</h3>
       <p className="mt-2 text-sm leading-6 text-stone-600">
         {service.description}

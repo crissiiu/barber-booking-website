@@ -1,0 +1,21 @@
+<svg width="1440" height="620" viewBox="0 0 1440 620" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <rect width="1440" height="620" fill="#07162f"/>
+  <rect x="0" y="0" width="1440" height="620" fill="url(#g)"/>
+  <circle cx="1110" cy="270" r="170" fill="#d9a441" opacity=".24"/>
+  <rect x="930" y="108" width="260" height="390" rx="130" fill="#edf4ff" opacity=".9"/>
+  <path d="M1005 263c49-77 145-75 183 5 42 90-31 171-116 171-86 0-118-96-67-176z" fill="#15397f"/>
+  <path d="M965 430c62-42 167-42 225 2 31 24 45 56 45 94H916c0-42 17-73 49-96z" fill="#0b234d"/>
+  <path d="M1055 210c40-34 93-27 121 13-61-12-101 8-132 59-15-31-11-54 11-72z" fill="#111827"/>
+  <path d="M249 404h423" stroke="#ffffff" stroke-opacity=".28" stroke-width="2"/>
+  <path d="M249 453h302" stroke="#ffffff" stroke-opacity=".18" stroke-width="2"/>
+  <text x="245" y="230" fill="#ffffff" font-family="Arial, Helvetica, sans-serif" font-size="64" font-weight="800">Cắt tóc đúng chất</text>
+  <text x="248" y="290" fill="#d7e4ff" font-family="Arial, Helvetica, sans-serif" font-size="28" font-weight="700">Giữ chỗ nhanh, vào ghế đúng giờ</text>
+  <text x="250" y="342" fill="#d9a441" font-family="Arial, Helvetica, sans-serif" font-size="22" font-weight="800">Combo fade + cham soc da tu 199K</text>
+  <defs>
+    <linearGradient id="g" x1="0" x2="1440" y1="0" y2="620">
+      <stop stop-color="#15397f"/>
+      <stop offset=".58" stop-color="#0b234d"/>
+      <stop offset="1" stop-color="#07162f"/>
+    </linearGradient>
+  </defs>
+</svg>

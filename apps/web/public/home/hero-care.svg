@@ -1,0 +1,20 @@
+<svg width="1440" height="620" viewBox="0 0 1440 620" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <rect width="1440" height="620" fill="#edf4ff"/>
+  <rect x="0" y="0" width="1440" height="620" fill="url(#g)"/>
+  <rect x="826" y="78" width="405" height="464" rx="8" fill="#ffffff" opacity=".88"/>
+  <rect x="872" y="128" width="312" height="250" rx="8" fill="#15397f"/>
+  <path d="M907 330c90-105 180-105 242 2" stroke="#d9a441" stroke-width="22" stroke-linecap="round"/>
+  <circle cx="1009" cy="226" r="72" fill="#d7e4ff"/>
+  <rect x="892" y="414" width="270" height="18" rx="9" fill="#15397f" opacity=".35"/>
+  <rect x="892" y="452" width="220" height="18" rx="9" fill="#15397f" opacity=".2"/>
+  <text x="230" y="232" fill="#07162f" font-family="Arial, Helvetica, sans-serif" font-size="64" font-weight="800">Cham soc da mat</text>
+  <text x="233" y="292" fill="#15397f" font-family="Arial, Helvetica, sans-serif" font-size="28" font-weight="700">Thu gian trong tung phut cho doi</text>
+  <text x="235" y="342" fill="#9a6a13" font-family="Arial, Helvetica, sans-serif" font-size="22" font-weight="800">Goi thu gian cao cap moi tuan</text>
+  <defs>
+    <linearGradient id="g" x1="0" x2="1440" y1="0" y2="620">
+      <stop stop-color="#ffffff"/>
+      <stop offset=".72" stop-color="#d7e4ff"/>
+      <stop offset="1" stop-color="#8fb4ff"/>
+    </linearGradient>
+  </defs>
+</svg>
