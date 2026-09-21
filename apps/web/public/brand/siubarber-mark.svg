@@ -1,0 +1,13 @@
+<svg width="1024" height="1024" viewBox="0 0 1024 1024" fill="none" xmlns="http://www.w3.org/2000/svg" role="img" aria-labelledby="title desc">
+  <title id="title">SiuBarber mark</title>
+  <desc id="desc">Transparent square SiuBarber logo mark using the project primary blue and gold accent.</desc>
+  <circle cx="512" cy="512" r="356" stroke="#15397f" stroke-width="86"/>
+  <path d="M285 667C363 489 500 365 696 300" stroke="#15397f" stroke-width="86" stroke-linecap="round"/>
+  <path d="M313 635C386 494 505 392 668 330" stroke="#d9a441" stroke-width="32" stroke-linecap="round"/>
+  <path d="M298 382C445 429 568 524 676 670" stroke="#15397f" stroke-width="78" stroke-linecap="round"/>
+  <path d="M341 388C459 434 560 513 646 630" stroke="#ffffff" stroke-width="30" stroke-linecap="round"/>
+  <path d="M624 735L788 571" stroke="#15397f" stroke-width="54" stroke-linecap="round"/>
+  <path d="M664 774L828 610" stroke="#15397f" stroke-width="54" stroke-linecap="round"/>
+  <path d="M651 734L792 593" stroke="#d9a441" stroke-width="18" stroke-linecap="round"/>
+  <circle cx="624" cy="735" r="34" fill="#15397f"/>
+</svg>
