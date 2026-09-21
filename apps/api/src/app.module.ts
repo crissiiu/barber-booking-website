@@ -10,6 +10,7 @@ import { AuthModule } from './modules/auth/auth.module.js';
 import { BarbersModule } from './modules/barbers/barbers.module.js';
 import { BookingsModule } from './modules/bookings/bookings.module.js';
 import { CustomersModule } from './modules/customers/customers.module.js';
+import { EmployeesModule } from './modules/employees/employees.module.js';
 import { NotificationsModule } from './modules/notifications/notifications.module.js';
 import { PaymentsModule } from './modules/payments/payments.module.js';
 import { SchedulesModule } from './modules/schedules/schedules.module.js';
@@ -26,6 +27,7 @@ import { UsersModule } from './modules/users/users.module.js';
     DatabaseModule,
     AuthModule,
     UsersModule,
+    EmployeesModule,
     CustomersModule,
     BarbersModule,
     ServicesModule,

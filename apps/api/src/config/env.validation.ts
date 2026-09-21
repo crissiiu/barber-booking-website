@@ -35,4 +35,12 @@ export const envValidationSchema = z.object({
   DB_DATABASE: z.string().min(1),
   DB_SYNCHRONIZE: booleanSchema.default(true),
   DB_LOGGING: booleanSchema.default(true),
+
+  CLOUDINARY_CLOUD_NAME: z.string().min(1),
+  CLOUDINARY_API_KEY: z.string().min(1),
+  CLOUDINARY_API_SECRET: z.string().min(1),
+  CLOUDINARY_EMPLOYEE_FOLDER: z
+    .string()
+    .min(1)
+    .default('siubarber/employees'),
 });

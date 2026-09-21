@@ -1,0 +1,7 @@
+<svg width="220" height="64" viewBox="0 0 220 64" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <circle cx="32" cy="32" r="22" fill="#ffffff"/>
+  <path d="M22 41c6-12 14-18 25-22" stroke="#d9a441" stroke-width="5" stroke-linecap="round"/>
+  <path d="M21 24c9 4 18 10 25 19" stroke="#15397f" stroke-width="4" stroke-linecap="round"/>
+  <text x="65" y="30" fill="#ffffff" font-family="Arial, Helvetica, sans-serif" font-size="21" font-weight="800">SiuBarber</text>
+  <text x="66" y="47" fill="#d7e4ff" font-family="Arial, Helvetica, sans-serif" font-size="10" font-weight="700" letter-spacing="2">STYLE &amp; GROOMING</text>
+</svg>
