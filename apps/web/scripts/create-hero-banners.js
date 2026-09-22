@@ -1,7 +1,7 @@
 /* eslint-disable @typescript-eslint/no-require-imports */
 
 const path = require("node:path");
-const sharp = require("../node_modules/.pnpm/sharp@0.35.4_@types+node@20.19.43/node_modules/sharp");
+const sharp = require("sharp");
 
 const publicHome = path.join(__dirname, "..", "public", "home");
 

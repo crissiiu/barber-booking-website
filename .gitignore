@@ -3,3 +3,7 @@
 skills-lock.json
 /docs
 /.pnpm-store
+
+# TypeScript build cache
+*.tsbuildinfo
+tsconfig.build.*

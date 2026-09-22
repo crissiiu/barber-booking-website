@@ -1,8 +1,8 @@
 "use client";
 
-import { appConfig } from "@/configs/app.config";
-import { Button } from "@/shared/components/ui";
-import { cn } from "@/shared/utils";
+import { appConfig } from "@configs/app.config";
+import { Button } from "@share/components/ui";
+import { cn } from "@share/utils";
 import { CalendarDays, Menu, PhoneCall, X } from "lucide-react";
 import Image from "next/image";
 import Link from "next/link";
