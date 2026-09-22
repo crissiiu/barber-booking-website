@@ -1,7 +1,7 @@
 import { Banknote, CreditCard, PlayCircle, ThumbsUp, WalletCards } from "lucide-react";
 import Image from "next/image";
 import Link from "next/link";
-import { appConfig } from "@/configs/app.config";
+import { appConfig } from "@configs/app.config";
 
 const paymentItems = [
   { icon: Banknote, label: "Cash" },

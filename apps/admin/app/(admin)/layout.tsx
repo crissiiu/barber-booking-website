@@ -1,5 +1,5 @@
 import type { ReactNode } from "react";
-import { AdminShell } from "@/components/layout";
+import { AdminShell } from "@share/components/layout";
 
 type AdminLayoutProps = {
   children: ReactNode;

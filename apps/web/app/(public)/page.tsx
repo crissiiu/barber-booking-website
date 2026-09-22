@@ -1,5 +1,6 @@
-import { HomePageContent } from "@/modules/home/components";
+import { HomePageContent } from "@/app/(public)/home";
 
 export default function PublicHomePage() {
   return <HomePageContent />;
 }
+

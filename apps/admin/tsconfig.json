@@ -19,7 +19,15 @@
       }
     ],
     "paths": {
-      "@/*": ["./*"]
+      "@/*": ["./*"],
+      "@app/*": ["./app/*"],
+      "@share/*": ["./shared/*"],
+      "@auth/*": ["./app/(auth)/*"],
+      "@admin/*": ["./app/(admin)/*"],
+      "@scripts/*": ["./scripts/*"],
+      "@styles/*": ["./styles/*"],
+      "@configs/*": ["./configs/*"],
+      "@assets/*": ["./public/*"]
     }
   },
   "include": [

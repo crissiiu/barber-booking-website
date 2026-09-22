@@ -1,5 +1,5 @@
 import type { ReactNode } from "react";
-import { HomeFooter, SiteHeader } from "@/shared/components/layout";
+import { HomeFooter, SiteHeader } from "@share/components/layout";
 
 type PublicLayoutProps = {
   children: ReactNode;
